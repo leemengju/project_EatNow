@@ -71,10 +71,20 @@ project_EatNow/
 
 1️⃣ 複製專案至本地：
 
-```bash
+bash
+複製
+編輯
 git clone https://github.com/leemengju/project_EatNow.git
+2️⃣ 使用 VS Code 開啟專案資料夾：
 
-🚀 啟動專案
+bash
+複製
+編輯
+code project_EatNow
+
+
+---
+### 🚀 啟動專案
 ⚠️ 注意： 本專案使用 JSON 模擬資料，必須透過本地伺服器啟動，否則瀏覽器會因CORS 限制導致資料無法讀取。
 
 使用 Live Server 啟動方法：
@@ -85,7 +95,9 @@ git clone https://github.com/leemengju/project_EatNow.git
 
 預設網址：http://127.0.0.1:5500/index.html
 
-💡 功能說明
+
+---
+### 💡 功能說明
 首頁：瀏覽外送餐點，按類別篩選，加入購物車。
 
 餐廳頁：瀏覽不同合作餐廳的菜單資訊與評分。
