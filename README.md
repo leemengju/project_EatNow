@@ -2,14 +2,14 @@
 
 這是一個以**外送平台**為主題，針對**都市上班族**這一核心 Persona，進行創意發想與功能開發的專案，目標是解決上班族在繁忙工作期間訂餐的痛點，並實現具有基本可用性的產品原型（MVP）。
 
----
+
 
 ## 🎯 專案目標
 
 **EatNow** 致力於提升都市上班族的用餐效率，解決午餐選擇困難、訂單等待時間過長、付款流程繁瑣等問題。  
 透過簡單直觀的頁面設計與模擬訂單流程，縮短點餐時間，提升用戶體驗。
 
----
+
 
 ## 🧑‍💼 Persona 分析
 
@@ -20,7 +20,7 @@
 | ⚡ 核心需求     | 1. 快速瀏覽餐點 2. 篩選餐點分類 3. 結帳流程簡單 |
 | 📱 使用設備     | 電腦 / 手機                               |
 
----
+
 
 ## 💡 核心特色
 
@@ -29,7 +29,7 @@
 - 📱 **跨裝置支援** — 響應式版面，適配不同螢幕  
 - ⚙️ **模擬資料架構** — 使用 JSON 模擬後端，便於前端測試
 
----
+
 
 ## 🧑‍💻 技術架構
 
@@ -39,7 +39,7 @@
 - **Bootstrap 5**
 - **JSON**（模擬餐點資料）
 
----
+
 
 ## 📦 專案架構 & 安裝說明
 
@@ -59,32 +59,35 @@ project_EatNow/
 ├── E.Cashier_Page.html            # 結帳頁
 └── F.Deliver_Page.html            # 外送頁
 
+project_EatNow/ │ ├── assets/ # 圖片與靜態資源 │ ├── js/ # JavaScript 檔案 │ ├── index.js # 首頁與點餐功能 │ ├── checkout.js # 結帳流程控制 │ ├── data/ │ └── menu.json # 餐點資料（JSON 模擬） │ ├── css/ │ ├── style.css # 通用樣式 │ └── checkout.css # 結帳頁面樣式 │ ├── index.html # 首頁 └── checkout.html # 結帳頁
+
+
+
+
 
 ### 💻 前置需求
 
 - 已安裝 [Visual Studio Code](https://code.visualstudio.com/)
 - 安裝 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 擴充功能
 
----
+
 
 ### 🔥 安裝步驟
 
 1️⃣ 複製專案至本地：
+```bash
 
-bash
-複製
-編輯
 git clone https://github.com/leemengju/project_EatNow.git
+```
+
+
 2️⃣ 使用 VS Code 開啟專案資料夾：
-
-bash
-複製
-編輯
+```bash
 code project_EatNow
+```
 
 
----
-### 🚀 啟動專案
+### 🌐  啟動專案
 ⚠️ 注意： 本專案使用 JSON 模擬資料，必須透過本地伺服器啟動，否則瀏覽器會因CORS 限制導致資料無法讀取。
 
 使用 Live Server 啟動方法：
@@ -96,7 +99,7 @@ code project_EatNow
 預設網址：http://127.0.0.1:5500/index.html
 
 
----
+
 ### 💡 功能說明
 首頁：瀏覽外送餐點，按類別篩選，加入購物車。
 
